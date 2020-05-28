@@ -28,6 +28,7 @@ public class HomePageTest extends TestBase{
   }
   @Test
   public void searchItemTest() {
+	  System.out.println("In SearchItemTest");
 	  homePage.searchItem(prop.getProperty("searchText"));
   }
   
